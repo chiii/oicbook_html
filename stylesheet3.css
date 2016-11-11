@@ -592,6 +592,66 @@ li{
     background: url(//hih67k1jnwfciz.cdn.jp.idcfcloud.com/images/ic/usericon_none.png) no-repeat center center;
 }
 
+
+
+
+
+
+
+
+
+/**************************************
+
+search.html
+****************************************/
+.body{
+    margin: 0;
+    padding: 0;
+    width: 738px;
+    float: right;
+}
+.side01{
+    float: right;
+    width: 738px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side02{
+    display: inline;
+    float: left;
+    width: 228px;
+}
+}
+.title{
+    margin: 0 0 10px;
+    padding: 12px 0 12px 15px;
+    color: #000;
+    background: #fafafa;
+    font-size: 1.14em;
+    border-top: #dedede 1px solid;
+    border-bottom: #dedede 1px solid;
+    zoom: 1;
+}
+
+
+
+
+
+
 /*
 footer{
     background-color:darkseagreen;
