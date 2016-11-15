@@ -526,11 +526,33 @@ content
 マイページ
 ***********************/
 .body{
-	  margin: 0;
+    margin: 0;
     padding: 0;
-    width: 738px;
-    float: right;
 }
+
+li{
+	list-style: none;
+}
+.listbox li{
+	line-height: 25px;
+
+
+}
+.side01{
+    width: 40%;
+    float: left;
+    
+    
+}
+.main{
+	border: 1px #DEDEDE solid;
+    background-color: #fafafa;
+    width: 60%;
+    float: right;
+    
+}
+
+
 table{
 		font-size: 1em;
 }
@@ -545,24 +567,13 @@ tr{
 	  border-color: inherit;
 }
 
-li{
-	list-style: none;
-}
-.listbox li{
-	line-height: 25px;
-
-}
-.main{
-	border: 1px #DEDEDE solid;
-  background-color: #fafafa;
-}
 .td01{
 	width: 147px;
-  vertical-align: middle;
-  padding: 27px 0px;
+    vertical-align: middle;
+    padding: 27px 0px;
 }
-.td02{
-	  width: 383px;
+.td02{ 
+    width: 383px;
     padding: 27px 0px;
     vertical-align: middle;
     word-break: break-word;
@@ -589,20 +600,6 @@ li{
 }
 
 
-.mpimg{
-	  display: inline-block;
-    height: 72px;
-    width: 72px;
-    border-radius: 72px;
-    -webkit-border-radius: 72px;
-    -moz-border-radius: 72px;
-    /* border: 3px #fafafa solid; */
-    vertical-align: middle;
-    overflow: hidden;
-    background: url(//hih67k1jnwfciz.cdn.jp.idcfcloud.com/images/ic/usericon_none.png) no-repeat center center;
-}
-
-
 
 
 
@@ -621,7 +618,7 @@ search.html
     float: right;
 }
 .side01{
-    float: right;
+    
     width: 738px;
 }
 
@@ -674,5 +671,5 @@ height: 100px;
 width: 1010px;
 }
 #adress{
-    margin-left:10px;
+    margin-left:190px;
 }
