@@ -25,6 +25,7 @@ body {
 }
 img{
 	border: none;
+    
 }
 /*************************************
  * Anchor
@@ -402,10 +403,15 @@ h3 {
 content
 *************/
 .contents{
-    margin: 0 auto 60px;
+    margin: auto;
     padding: 0 5px;
     width: 1010px;
     clear: both;
+    
+}
+.top{
+    height: 500px;
+    width: 1010px;
 }
 
 .contents .topimg{
@@ -427,18 +433,19 @@ content
 ランキング
 ****************/
 #ranking{
-	padding-top:450px;
-	padding-bottom:15px;
+    margin: 0;
+	padding:0;
 }
 .ranking{
     margin:0 0 0 0;
     padding: 0;
-    width: auto;
+    height: 500px;
+    width: 947px;
 }
 
 .ranking h2{
-    margin: 0 0 10px;
-    padding: 0 0 20px;
+    margin: 0 0 px;
+    padding: 0 0 10px;
     text-align: center;
     color: #000;
     font-size: 1.86em;
@@ -450,7 +457,7 @@ content
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 1080px;
+    width: 1000px;
     overflow: hidden;
     zoom: 1;
     border: 1px solid #dedede;
@@ -459,12 +466,12 @@ content
     display: block;
 	position: relative;
 	float: left;
-	width: 1020px;
+	width: 1010px;
 	overflow: hidden;
 }
 .ranking-list ul li{
     list-style: none;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 5px;
     padding: 0;
     float: left;
     display: block;
@@ -474,7 +481,8 @@ content
 
 .ranking-list .rank {
 	margin: 0;
-	padding: 8px 0;
+	padding: 7px;
+    width: 23px;
 	font-size: .9em;
 	line-height: 100%;
 	display: block;
@@ -500,17 +508,19 @@ content
 .ranking-list .price {
 	margin: 0;
 	padding: 0;
-	text-align: right;
 	display: block;
 }
 .ranking-list .item-name {
-	padding: 7px 0 0 0;
+	padding: 5px;
 	font-size: .9em;
 	line-height: 140%;
     display: block;
 }
 
-
+.ranking_image{
+    margin-left: auto;
+    margin-right: auto;
+}
 /***********************
 
 マイページ
@@ -615,6 +625,8 @@ search.html
     width: 738px;
 }
 
+.body 
+
 
 
 
@@ -648,26 +660,19 @@ search.html
 }
 
 
+/*********************************************
+
+フッター
+*********************************************/
 
 
 
-
-/*
 footer{
-    background-color:darkseagreen;
+margin: 0;
+padding:0;
+height: 100px;
+width: 1010px;
 }
-footer ul li{
-    list-style: none;
+#adress{
+    margin-left:10px;
 }
-.mydata{
-    border: 1px solid #000;
-}
-.acount{
-    border: 1px solid #000;
-}
-.rireki{
-    border: 1px solid #000;
-}
-.pay{
-    border: 1px solid #000;
-}*/
