@@ -538,16 +538,12 @@ li{
 
 
 }
-.side01{
-    width: 40%;
-    float: left;
-    
-    
-}
 .main{
+    margin-top: 25px;
+    margin-right: 150px;
 	border: 1px #DEDEDE solid;
     background-color: #fafafa;
-    width: 60%;
+    width: 70%;
     float: right;
     
 }
@@ -586,7 +582,11 @@ tr{
     word-break: break-word;
 }
 
-
+.acount_menu{
+    width: 20%;
+    margin-left: 200px;
+    
+}
 .edit{
    	height: 33px;
     font-size: 15px;
@@ -598,13 +598,29 @@ tr{
     position: relative;
     width: 64px;
 }
+#user_name{
+    margin-top: 0;
+    margin-left: 10px;
+    width: 20%;
+    font-size: 20px;
+}
+.navi{
+    margin: 0;
+    line-height: 15px;
+}
 
 
-
-
-
-
-
+.navi_item{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+#user_icon{
+    width: 60%;
+    padding: 10px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+}
 
 
 /**************************************
