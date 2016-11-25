@@ -629,8 +629,8 @@ search.html
 .search_body{
     margin: 0;
     padding: 0;
-    width: 1010px;
     height: auto;
+    width: 100%;
 }
 .search_side01{
     float:right;
@@ -638,7 +638,8 @@ search.html
 
 
 .itemlist{
-    width: 738px;
+    width: 950px;
+    margin-right: 130px;
 }
 .itemlist li{
     margin: 0 0 0 40px;
@@ -670,9 +671,10 @@ search.html
 
 
 .search_side02{
-    margin: 10px;
+    margin: 30px;
+    padding: 0;
     float: left;
-    width: 23%;
+    width: 200px;
 }
 
 
